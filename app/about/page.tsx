@@ -1,5 +1,11 @@
 import AboutHero from "@/components/AboutHero";
 
+export const metadata = {
+  title: "About AgroEssence | Trusted Gardening & Agriculture Products",
+  description:
+    "Learn about AgroEssence and our mission to provide high-quality fertilizers, organic manure, and gardening supplies.",
+};
+
 export default function AboutPage() {
   return (
     <>

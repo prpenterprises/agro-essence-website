@@ -1,6 +1,12 @@
 import ProductsHero from '@/components/ProductsHero';
 import ProductSection from '@/components/ProductSection';
 
+export const metadata = {
+  title: "Gardening Products | Vermicompost, Cocopeat & Garden Tools",
+  description:
+    "Explore AgroEssence products including soil manure, plant nutrition fertilizers, bio plant protection, soil media, and garden tools.",
+};
+
 export default function ProductsPage() {
   return (
     <>
