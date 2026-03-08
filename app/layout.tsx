@@ -20,6 +20,8 @@ export const metadata = {
     'Agro Essence',
     'gardening products near me',
     'Gardening products ghaziabad',
+    'prp enterprises ghaziabad',
+    'prpenterprises ghaziabad',
   ],
   authors: [{ name: 'AgroEssence' }],
   openGraph: {
