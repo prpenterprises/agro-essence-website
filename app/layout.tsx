@@ -4,9 +4,32 @@ import Footer from '../components/Footer';
 import WhatsAppFloat from '../components/WhatsAppFloat';
 
 export const metadata = {
-  title: "Agro Essence",
-  description: "Agricultural Products Store",
-  viewport: "width=device-width, initial-scale=1"
+  title: "AgroEssence | Organic Fertilizers & Garden Supplies",
+  description:
+    "AgroEssence provides high quality vermicompost, neem khali, cocopeat, fertilizers, garden tools and plant care products for home gardening and agriculture.",
+    viewport: "width=device-width, initial-scale=1",
+  keywords: [
+    "vermicompost",
+    "neem khali",
+    "cocopeat",
+    "garden tools",
+    "organic fertilizer",
+    "plant nutrition",
+    "home gardening products",
+    "agriculture store India",
+    "agroessence",
+    "agro essence gardening products",
+    "PRP enterprises near me",
+    "PRP enterprises gardening products"
+  ],
+  authors: [{ name: "AgroEssence" }],
+  openGraph: {
+    title: "AgroEssence",
+    description: "Premium gardening and agriculture products",
+    url: "https://yourdomain.com",
+    siteName: "AgroEssence",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
