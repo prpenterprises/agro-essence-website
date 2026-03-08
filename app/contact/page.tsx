@@ -2,12 +2,6 @@
 
 import { useState } from "react";
 
-export const metadata = {
-  title: "Contact AgroEssence | Gardening Products Store",
-  description:
-    "Contact AgroEssence for vermicompost, cocopeat, fertilizers, plant protection products, and gardening tools.",
-};
-
 export default function ContactPage() {
   const phone = "+919599804558";
   const phone2 = "+919818990174";

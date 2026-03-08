@@ -7,7 +7,6 @@ export const metadata = {
   title: "AgroEssence | Organic Fertilizers & Garden Supplies",
   description:
     "AgroEssence provides high quality vermicompost, neem khali, cocopeat, fertilizers, garden tools and plant care products for home gardening and agriculture.",
-    viewport: "width=device-width, initial-scale=1",
   keywords: [
     "vermicompost",
     "neem khali",
@@ -30,6 +29,11 @@ export const metadata = {
     siteName: "AgroEssence",
     type: "website",
   },
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({
